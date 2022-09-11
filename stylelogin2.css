@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.fa-shopping-basket{
+    margin-right:5px;
+    color:white;
+  }
+  .fa-home{
+    margin-right:5px;
+    color:white;
+    
+  }
+  .fa-product-hunt{
+    margin-right:5px;
+    color:white;
+   
+  }
+
+  .fa-address-card{
+    margin-right:5px;
+    color:white;
+  }
+  .fa-phone{
+    margin-right:5px;
+    color:white;
+  }
+  .fa-user-alt{
+    margin-right:5px;
+    color:white;
+  }
+
+nav:hover{
+    flex: 1;
+    text-align: left;
+} 
+
+nav ul{
+    display: inline-block;
+    list-style: none;
+  
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+    background-color: #293f50;
+    border-radius: 10%;
+    padding: 8px 30px;
+    
+    
+}
+nav ul li :hover{
+    
+    background:rgb(31, 31, 46);
+    display: inline-flexbox;
+    justify-content: space-around;
+    color:white;
+    border-radius: 30px;    
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+button {
+   background-color: #293f50;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 20px;
+  }
+a{
+    text-decoration: none;
+    color: #555555;
+}
+
+p{
+    color: #555555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.container1 {
+    padding: 16px;
+
+}
+
+button:hover {
+    opacity: 0.8;
+  }
+.header{
+    background: radial-gradient(#ffffff , #293f50);
+}
+
+
